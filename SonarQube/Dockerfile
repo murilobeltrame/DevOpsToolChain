@@ -1,0 +1,2 @@
+FROM sonarqube:latest
+EXPOSE 9000:9000 9092:9092

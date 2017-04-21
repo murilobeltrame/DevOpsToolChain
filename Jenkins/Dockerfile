@@ -1,0 +1,2 @@
+FROM jenkins:latest
+EXPOSE 8080:8080 50000:50000
