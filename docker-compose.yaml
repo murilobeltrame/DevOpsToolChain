@@ -1,0 +1,14 @@
+jenkins:
+  build: ./Jenkins
+  ports: 
+    - "8080:8080"
+    - "50000:50000"
+sonarqube:
+  build: ./SonarQube
+  ports:
+    - "9000:9000"
+    - "9092:9092"
+nexus:
+  build: ./Nexus
+  ports:
+    - "8081:8081"
